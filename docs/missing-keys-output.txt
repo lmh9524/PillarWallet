@@ -1,0 +1,177 @@
+Total EN keys: 1265
+Total CN keys: 1131
+Missing keys: 134
+
+
+## button (2 keys):
+  "button.swipeSend": "Swipe to send",
+  "button.openInBrowser": "Open in browser",
+
+## contactSelector (4 keys):
+  "contactSelector.button.sendingToExchangeWarning": "I'm not sending to an exchange",
+  "contactSelector.sendWarning.title": "Your funds at risk.",
+  "contactSelector.sendWarning.body": "Sending to a CEX such as Finance, Bitfinex, HitBTC, etc is not supported for smart contract based wallets. You may lose your funds if sent to centralized exchanges.",
+  "contactSelector.sendWarning.unsupportedExchanges": "Unsupported exchanges",
+
+## error (6 keys):
+  "error.transactionFailed.unableToAccessWallet": "Unable to access wallet",
+  "error.failedKeychain.title": "Your device is not supported",
+  "error.failedKeychain.nonEtherspotMessage": "Due to security concerns, we don’t support devices with disabled keychain access.",
+  "error.failedKeychain.etherspotMessage": "
+
+Your Etherspot wallet address: {{address}}",
+  "error.failedKeychain.cancelButtonText": "Cancel",
+  "error.failedKeychain.supportButtonText": "Support",
+
+## exchangeContent (1 keys):
+  "exchangeContent.providers.paraswap": "Paraswap",
+
+## home (12 keys):
+  "home.receiveTokenWarning.pillarDescription": "Pillar is a super-powered crypto wallet designed for efficient trading of multiple assets and leveraging up in multichain DeFi with just one tap.",
+  "home.receiveTokenWarning.stableCoinDetails": "You can pay all your fees in stablecoins and earn yield without performing multiple steps.",
+  "home.receiveTokenWarning.pillarSecure": "Due to its smart-contract architecture, Pillar is more secure than other wallets.",
+  "home.receiveTokenWarning.pillarBenefits": "To enjoy these benefits, you need to deploy your wallets, which is a one-time cost that you pay on your first transaction.",
+  "home.receiveTokenWarning.pillarDeployment1": "Pillar doesn't make any money from the deployment, we cover the costs of",
+  "home.receiveTokenWarning.pillarDeployment2": "Gnosis for you.",
+  "home.receiveTokenWarning.checkAddress": "Before sending your assets to your address, check the current deployment costs:",
+  "home.receiveTokenWarning.understood": "Got it. Don’t show this message again.",
+  "home.investments.title": "PLR Staking",
+  "home.investments.description": "Earn ETH by staking your PLR tokens.
+{{stakedPercentage}}% PLR of the vault staked.",
+  "home.investments.apy": "APY:",
+  "home.investments.stakingCloseTime": "Subscription to PLR Staking will close in",
+
+## label (6 keys):
+  "label.network": "Network",
+  "label.swapping": "Swapping",
+  "label.transactionFee": "Transaction fee",
+  "label.smartWalletDeploy": "Smart wallet deployment",
+  "label.highGasFee": "  ·  High gas price",
+  "label.pillarDefaultList": "Pillar Default List",
+
+## menu (5 keys):
+  "menu.item.emailSupport": "Email support",
+  "menu.item.liveChatSupport": "Live chat support",
+  "menu.item.knowledgebase": "Knowledgebase",
+  "menu.item.liveChatActivate": "Hold 10,000 PLR tokens to activate live chat support",
+  "menu.settings.importWallet": "Import Wallet",
+
+## plrStaking (51 keys):
+  "plrStaking.title": "Pillar Staking",
+  "plrStaking.info": "Stake PLR to earn ETH on Ethereum without running a validator. Rewards are distributed quarterly after ETH validator withdrawals are live. Proportional distribution based on staked percentage of PLR pool. Staked tokens (stkPLR) are 1:1 issued, and PLR tokens are locked for 52 weeks.",
+  "plrStaking.limitWarning": "You need a minimum of 10,000 PLR tokens on Ethereum, swap more assets to PLR on Ethereum.",
+  "plrStaking.plrAvailable": "You have PLR assets on {{chainAmount}} chain{{s}}",
+  "plrStaking.pillar": "Pillar",
+  "plrStaking.etherspotWallet": "Etherspot Wallet",
+  "plrStaking.stakingInfoLoading": "Staking info is loading...",
+  "plrStaking.stakingClosingIn": "Staking will close in",
+  "plrStaking.stakingClosed": "Staking is currently closed",
+  "plrStaking.etherspot": "Etherspot",
+  "plrStaking.keybased": "Keybased",
+  "plrStaking.archanova": "Pillar v1",
+  "plrStaking.wallet": "Wallet",
+  "plrStaking.header.token": "Token",
+  "plrStaking.header.chain": "Chain",
+  "plrStaking.header.apy": "APY (Variable)",
+  "plrStaking.header.staked": "Staked",
+  "plrStaking.header.vaultFilling": "Vault filling",
+  "plrStaking.header.stakers": "Stakers",
+  "plrStaking.header.pillarStaking": "Pillar Staking",
+  "plrStaking.header.onEthereum": "On Ethereum",
+  "plrStaking.header.rewards": "Rewards",
+  "plrStaking.assetSelector.from": "From",
+  "plrStaking.assetSelector.to": "To",
+  "plrStaking.assetSelector.on": "on {{network}}",
+  "plrStaking.assetSelector.max": "Max",
+  "plrStaking.assetSelector.balance": "Balance {{balance}}",
+  "plrStaking.button.chooseAsset": "Choose Asset",
+  "plrStaking.button.stake": "Stake",
+  "plrStaking.button.processing": "Processing...",
+  "plrStaking.button.enterAmount": "Enter staking amount",
+  "plrStaking.button.calculatingFees": "Calculating fees...",
+  "plrStaking.button.insufficientAmount": "Insufficient PLR amount",
+  "plrStaking.button.fetchingRoutes": "Fetching routes...",
+  "plrStaking.button.fetchingOffers": "Fetching offers...",
+  "plrStaking.button.execute": "Execute",
+  "plrStaking.button.done": "Done",
+  "plrStaking.validator.title": "Staking Pillar Validator",
+  "plrStaking.validator.limitWarning": "You need to stake min 10,000 PLR.
+You can stake up to max 250,000 PLR.",
+  "plrStaking.validator.stakingFeeError": "There was an error calculating the staking fees. This could be because you don't have enough balance to pay for the gas, or there was a network error.",
+  "plrStaking.validator.stakingBuildError": "There was an error forming the staking payload, please try again later.",
+  "plrStaking.validator.estFee": "Est. fee:",
+  "plrStaking.validator.estTime": "Est. time:",
+  "plrStaking.validator.swapVia": "Swap via {{title}} on {{networkName}}",
+  "plrStaking.validator.stakeOn": "Stake {{formattedAmount}} on {{networkName}}",
+  "plrStaking.validator.on": "on",
+  "plrStaking.validator.showLess": "Show less",
+  "plrStaking.validator.showMore": "Show more",
+  "plrStaking.validator.bridgeFrom": "Bridge via {{title}} from {{networkName}} to {{destinationNetworkName}}",
+  "plrStaking.validator.sendFrom": "Send {{formattedValue}} to {{receiverWallet}}",
+  "plrStaking.chooseAsset": "Choose asset",
+
+## receiveModal (12 keys):
+  "receiveModal.title": "Receive",
+  "receiveModal.copyButton": "Address",
+  "receiveModal.activationText": "You need to activate your smart wallet first.",
+  "receiveModal.activateText": "Activate",
+  "receiveModal.notDeployedText": "⚠️ Sending tokens is unavailable. Currently you can only receive tokens in <0>{{chain}}</0> wallet",
+  "receiveModal.accountName.etherspot": "Etherspot Account",
+  "receiveModal.accountName.keyBased": "Keybased Account",
+  "receiveModal.accountName.archanova": "Pillar v1 Account",
+  "receiveModal.deployedOn": "Smart Contract based wallets on {{deployed}} are already deployed.",
+  "receiveModal.ethereumWarning": "Sending assets on Ethereum to this wallet comes with",
+  "receiveModal.additionalFee": "an additional fee",
+  "receiveModal.checkDeploymentStatus": "Check Deployment Status",
+
+## servicesContent (25 keys):
+  "servicesContent.alert.title": "Your wallet is not deployed",
+  "servicesContent.alert.subtitle": "Please confirm that you are willing to pay {{deploymentCost}} fee for smart wallet deployment on Ethereum network",
+  "servicesContent.alert.buttons.confirm": "I confirm",
+  "servicesContent.alert.buttons.cancel": "Cancel",
+  "servicesContent.ramp.addCash.selectResidentModal.title": "Select a provider",
+  "servicesContent.ramp.addCash.selectResidentModal.recommendation": "We recommend using sidechains with low-to-no network fees DeFi, NFTs and more.",
+  "servicesContent.ramp.addCash.selectResidentModal.highDeploymentFees": "Warning: High deployment fees if buying on Ethereum Mainnet",
+  "servicesContent.ramp.addCash.selectResidentModal.deploying": "Deploying...",
+  "servicesContent.ramp.addCash.selectResidentModal.options.onRamperTitle": "Onramper",
+  "servicesContent.ramp.addCash.selectResidentModal.options.onRamperCountry": "Global",
+  "servicesContent.ramp.addCash.selectResidentModal.options.onRamperDescription": "Get the best rate from 18 supported Onramp providers with every preferred payment method and currency.",
+  "servicesContent.ramp.addCash.selectResidentModal.options.pelerinTitle": "Mt Pelerin",
+  "servicesContent.ramp.addCash.selectResidentModal.options.pelerinCountry": "Europe",
+  "servicesContent.ramp.addCash.selectResidentModal.options.pelerinDescription": "Buy with EUR and CHF with a Debit card. Cashing out from crypto available.",
+  "servicesContent.ramp.addCash.selectNetworkModal.title": "Select Network",
+  "servicesContent.ramp.addCash.selectNetworkModal.subtitle": "We recommend using sidechains with low-to-no network fees DeFi, NFTs and more.",
+  "servicesContent.ramp.addCash.selectNetworkModal.options.sidechains": "Sidechains",
+  "servicesContent.ramp.addCash.selectNetworkModal.options.recommended": "Recommended",
+  "servicesContent.ramp.addCash.selectNetworkModal.options.highGasPrice": "High gas price 🔥",
+  "servicesContent.ramp.addCash.selectNetworkModal.options.ethereum": "Ethereum",
+  "servicesContent.ramp.addCash.selectNetworkModal.options.chainName": "Polygon, BSC, xDai",
+  "servicesContent.ramp.addCash.selectNetworkModal.warningMessage": "Your smart wallet is not deployed on Ethereum.
+{{deploymentCost}} smart wallet deployment cost will be added to this transaction. No action required.",
+  "servicesContent.ramp.addCash.pelerinWidget.deployError": "Failed to deploy the Etherspot wallet, please try again later.",
+  "servicesContent.ramp.addCash.pelerinWidget.signatureError": "There was an error getting the signature, please try again.",
+  "servicesContent.ramp.addCash.pelerinWidget.currentlyDeploying": "Deploying Etherspot wallet, please try again later.",
+
+## title (1 keys):
+  "title.registerEnsName": "Register ENS name",
+
+## toast (2 keys):
+  "toast.chainAddressCopiedToClipboard": "{{chain}} wallet address copied to clipboard.",
+  "toast.missingCopyAddress": "Sorry, cannot copy address to the clipboard",
+
+## tooltip (1 keys):
+  "tooltip.registerENS": "Register your unique ENS name",
+
+## transactions (3 keys):
+  "transactions.highGasFee.warningLabel": "Network fees are currently high. 
+Pillar is free and does not charge any extra fees.",
+  "transactions.highGasFee.pillarEthFeeDisclaimer": "Pillar does not charge any fees.
+Fee displayed is the current Ethereum network fee.",
+  "transactions.highGasFee.deployLabel": "This is your first transaction on this network. It will automatically deploy your smart wallet. Deployment cost will be added to regular transaction fee.",
+
+## unsupportedExchanges (2 keys):
+  "unsupportedExchanges.title": "Unsupported Exchanges",
+  "unsupportedExchanges.error.prismicDataFetchFailed": "Can't fetch {{prismicDocument}} data. Please try again.",
+
+## walletConnect (1 keys):
+  "walletConnect.home.switch-title": "Switch network",

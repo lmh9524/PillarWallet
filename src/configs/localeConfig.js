@@ -73,7 +73,7 @@ export default ({
     [DEFAULT_LANGUAGE_CODE]: DEFAULT_LANGUAGE,
     am: 'አማርኛ',
     bs: 'Bosanski',
-    cn: 'Chinese (Simplified)',
+    cn: '简体中文',
   },
   defaultNameSpace: DEFAULT_NAMESPACE,
   namespaces: ['auth', DEFAULT_NAMESPACE],

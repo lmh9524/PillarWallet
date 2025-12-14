@@ -44,6 +44,7 @@ import { getKeychainDataObject } from 'utils/keychain';
 
 // Translations
 import t from 'translations/translate';
+import i18next from 'i18next';
 
 // Constants
 import { MENU_FLOW } from 'constants/navigationConstants';
@@ -361,6 +362,7 @@ function Home() {
   // eslint-disable-next-line i18next/no-literal-string
   const baseUrl = /^https?:\/\//i.test(pillarXEndpoint) ? pillarXEndpoint : `https://${pillarXEndpoint}`;
   const devicePlatform = encodeURIComponent(Platform.OS);
+  const currentLanguage = encodeURIComponent(i18next.language || 'en');
   const eoaAddress = React.useMemo(() => {
     if (!pk) return '';
     try {
@@ -372,7 +374,16 @@ function Home() {
     }
   }, [pk]);
   // eslint-disable-next-line i18next/no-literal-string
-  const webviewUrl = `${baseUrl}?devicePlatform=${devicePlatform}&eoaAddress=${eoaAddress}`;
+  const webviewUrl = `${baseUrl}?devicePlatform=${devicePlatform}&eoaAddress=${eoaAddress}&lang=${currentLanguage}`;
+
+  // 调试日志：检查语言参数
+  React.useEffect(() => {
+    if (webviewUrl) {
+      logBreadcrumb('Home', 'WebView URL with language', { url: webviewUrl, language: currentLanguage });
+      console.log('🌐 WebView URL:', webviewUrl);
+      console.log('🌍 Current Language:', currentLanguage);
+    }
+  }, [webviewUrl, currentLanguage]);
 
   const overlayVisible = !pk || loading;
   const [webViewVisible, setWebViewVisible] = React.useState(false);

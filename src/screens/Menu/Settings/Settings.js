@@ -50,7 +50,7 @@ import type { Route } from '@react-navigation/native';
 
 // Local
 // import AppearanceSetting from './components/AppearanceSetting';
-// import LanguageSetting from './components/LanguageSetting';
+import LanguageSetting from './components/LanguageSetting';
 // import CurrencySetting from './components/CurrencySetting';
 import BiometricLoginSetting from './components/BiometricLoginSetting';
 import ChangePinSetting from './components/ChangePinSetting';
@@ -108,7 +108,7 @@ const Settings = ({ route }: Props) => {
         <Header>{t('appSettings')}</Header>
 
         {/* <AppearanceSetting /> */}
-        {/* <LanguageSetting /> */}
+        <LanguageSetting />
         {/* <CurrencySetting /> */}
         <BiometricLoginSetting wallet={wallet} pin={pin} />
         <ChangePinSetting />
